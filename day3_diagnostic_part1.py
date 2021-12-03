@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 
-"""Execute a series of navigation commands. Determine final position. """
+"""Compute diagnostic report from binary input. """
 
 import fileinput
 import sys
