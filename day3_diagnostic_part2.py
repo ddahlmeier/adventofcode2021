@@ -30,6 +30,6 @@ if __name__ == "__main__":
         print("Usage: day3_diagnostic_part2.py <input file>")
         sys.exit(-1)
     report = [list(map(int, line.strip())) for line in fileinput.input(files=sys.argv[1])]
-    oxygen_generator_reading = generate_rating(report.copy(), rating="oxygen")
-    co2_scrubber_rating = generate_rating(report.copy(), rating="co2")
+    oxygen_generator_reading = generate_rating(report, rating="oxygen")
+    co2_scrubber_rating = generate_rating(report, rating="co2")
     print(oxygen_generator_reading*co2_scrubber_rating)
