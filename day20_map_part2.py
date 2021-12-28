@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 
-"""--- Day 19: Beacon Scanner ---"""
+"""--- Day 20: Trench Map ---"""
 
 
 import numpy as np
